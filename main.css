@@ -1,3 +1,198 @@
-h1 {
-    color: red;
+.bl-background {
+    background: #f4eded;
+    padding: 10px; 
+    min-width: 1319px;
+    position: relative;
+    height: 97%;
+    min-height: 450px;
 }
+
+.bl-list {
+  
+    background: white;
+    padding: 10px;
+    margin-bottom: 0;
+    border-bottom: 1px #cbc5c6 solid;
+    
+}
+
+.bl-bought {
+    width: 30%;
+    background: white;
+    display: inline-block;
+    margin-left: 45px;
+    margin-top: 60px;
+    height: 40%; 
+    border: 1px #cbc5c6 solid;
+    box-shadow:  1px 4px 7px 0px #bab9be;
+    border-radius: 5px; 
+    min-height: 300px;
+}
+
+/*Кнопки*/
+.bl-label {
+    width: 38px;
+    line-height: 38px;
+ /*   vertical-align: -2px; */
+    text-align: center;
+    font-family: monospace;
+    font-size: 15px;
+    background: #efeded;
+    display: inline-block;
+    border-radius: 12%; 
+}
+
+
+.bl-plus {
+    width: 42px;
+    height: 44px;
+    background: #28ce37;
+    border: none;
+    /*
+      1-смещение по горизонтали
+      2-смещение по вертикали
+      3-размытие
+      4-толщина
+    */
+    box-shadow: inset 0px -4px 0px 0px #14b723;
+    border-radius: 50%;
+    color: aliceblue;
+    font-weight: bolder;
+    font-size: 25px;
+    font-family: monospace;
+    padding-bottom: 4px;
+}
+
+.bl-minus {
+    background: #e51b1b;
+    box-shadow: inset 0px -4px 0px 0px #b52637;
+   /* margin-left: 30%; */
+   
+    
+}
+
+.bl-buy {
+  background:  rgba(234, 234, 244, 0.4);
+  width: 106px;
+  height: 42px;
+  border: 1px #cbc5c6 solid;
+  border-radius: 4px; 
+  box-shadow: inset 0px -2px 0px 0px #d1cfcf;
+  color: #4d4c4c;
+  font-family: monospace;
+  font-size: 15px;
+  font-weight: bolder;
+
+}
+.bl-x {
+    width: 43px;
+    height: 42px;
+    background: #e51b1b;
+    box-shadow: inset 0px -4px 0px 0px #b52637;
+    border: none;
+    border-radius: 5px; 
+    color: aliceblue;
+    font-family: monospace;
+    font-weight: bolder;
+    font-size: 26px;
+    padding-bottom: 8px;
+}
+body, html {
+   margin: 0;
+   height: 100%;
+}
+
+.bl-buyx {
+     display: inline-block;
+     float: right;
+}
+/* надписи */
+.bl-product {
+     font-family: monospace;
+     font-size: 18px;
+}
+.bl-search-field {
+ height: 50px;
+ width: 79%;
+ border-radius: 4px 0 0 4px; 
+ border: 1px solid #b4b7d1;
+ padding-left: 10px;
+ font-size: 19px;
+ font-family: monospace;
+ margin-left: 10px;
+    
+}
+
+.bl-search-button{
+  float: right;
+  display: inline-block;
+}
+#search {
+  width: 140px;  height: 54.5px;
+  border-radius: 0 4px 4px 0; 
+  font-family: monospace;
+  font-size: 18px;
+  color: azure;
+  background: rgb(53, 74, 239);
+  font-weight: bolder;
+  border: 1px #cbc5c6 solid;
+  box-shadow: inset 0px -4px 1px 0px #4320d8;
+}
+.bl-row {
+  /*  margin-top: 0px; */
+    margin-left: 9px;
+}
+.bl-count {
+     display: inline-block;
+    
+}
+.bl-line {
+    display: inline-block;
+    width:40%;
+}
+.bl-all-list {
+    margin-top: 60px;
+    box-shadow:  1px 4px 7px 0px #bab9be;
+    display: inline-block;
+    width: 60%;
+    border: 1px #cbc5c6 solid;
+    margin-left: 40px;
+    float:left;
+    border-radius: 5px; 
+    padding-top: 15px;
+    background: white;
+    min-height: 280px;
+}
+.bl-title {
+    padding: 25px;
+    font-family: monospace;
+    font-size: 23px;
+    font-weight: bolder;
+    border-bottom: 1px #cbc5c6 solid;
+}
+
+.bl-title2 {   
+    font-family: monospace;
+    font-size: 15px;
+    font-weight: normal;
+    background-color: #e5e0e1;
+    padding: 10px;
+    margin-right: -5px;
+    border-radius: 4px;
+    display: inline-block;
+}
+.bl-number {
+   width: 34px;
+   margin-left: 6px;
+   line-height: 34px;
+   text-align: center;
+   border-radius: 50%;
+   display: inline-block;
+   background-color: #f5801b;
+   color:white;
+   font-weight: bolder;
+}
+.bl-list2{
+    border-bottom: none;
+}
+
